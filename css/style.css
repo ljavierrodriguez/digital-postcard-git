@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.postcard {
+    background-color: white;
+    height: 350px;
+    margin: 40px auto;
+    width: 600px;
+}
+
+.postcard .postcard-header {
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+}
+
+.postcard .postcard-header .header {
+    width: 50%;
+    float: left;
+}
+.postcard .postcard-header .header h1 {
+    float: left;
+    margin: 20px;
+}
+
+.postcard .postcard-header .logo {
+    width: 50%;
+    float: right;
+}
+
+.postcard .postcard-header .logo img {
+    height: 70px;
+    margin: 5px 10px;
+    float: right;
+}
