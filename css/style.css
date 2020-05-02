@@ -50,9 +50,23 @@ body {
     background-color: aqua;
 }
 
+.postcard .postcard-body .postcard-column-left p {
+    text-align: justify;
+    margin: 10px 10px;
+}
+
 .postcard .postcard-body .postcard-column-right {
     width: 50%;
     height: 190px;
     float: right;
-    background-color: blueviolet;
+    text-align: center;
+}
+
+.postcard .postcard-body .postcard-column-right [type=text]{
+    border: 0;
+    margin: 5px;
+    height: 30px;
+    width: 90%;
+    font-style: italic;
+    border-bottom: 1px solid gray;
 }
