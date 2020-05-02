@@ -15,7 +15,6 @@ body {
 .postcard .postcard-header {
     width: 100%;
     height: 80px;
-    background-color: gray;
 }
 
 .postcard .postcard-header .header {
@@ -36,4 +35,24 @@ body {
     height: 70px;
     margin: 5px 10px;
     float: right;
+}
+
+
+.postcard .postcard-body {
+    width: 100%;
+    height: 190px;
+}
+
+.postcard .postcard-body .postcard-column-left {
+    width: 50%;
+    height: 190px;
+    float: left;
+    background-color: aqua;
+}
+
+.postcard .postcard-body .postcard-column-right {
+    width: 50%;
+    height: 190px;
+    float: right;
+    background-color: blueviolet;
 }
